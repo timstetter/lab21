@@ -6,37 +6,61 @@
 <script
 	src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBqb2_pVfqx5BcOfKixHObvJpQvTsZX5lM&callback=initMap&libraries=&v=weekly"
 	defer></script>
-<link rel="stylesheet" type="text/css" href="style.css" />
+<link rel="stylesheet"
+	href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/slate/bootstrap.min.css"
+	integrity="sha384-8iuq0iaMHpnH2vSyvZMSIqQuUnQA7QM+f6srIdlgBrTSEyd//AWNMyEaSF2yPzNQ"
+	crossorigin="anonymous">
 <script src="index.js"></script>
+<style>
+#map {
+	height: 400px;
+	/* The height is 400 pixels */
+	width: 100%;
+	/* The width is the width of the web page */
+}
+</style>
 
 
 </head>
 <body>
-	<header>
-		<h1>Tim's Page</h1>
-		<p>I have been technologically curious since the day my father’s
-			14.4k modem dialed up Prodigy. I am now charting a new path towards
-			becoming a Full Stack Software Developer. I have an extensive
-			background in technical support and am growing my skills at Grand
-			Circus learning Java, Git, MVC, JPA/Hibernate, SQL and how to use
-			APIs to build a web application. I’m excited to continue learning new
-			skills and technologies and apply them on the job everyday.</p>
-		<p>I grew up in Huntington Woods, Michigan and have lived in Grand
-			Rapids, MI and downtown Detroit. I attended RIT in Rochester, NY but
-			now call Auburn Hills, MI home...for now.</p>
-
-
-		<p>This won't load correctly because I haven't setup billing to use the API</p>
-		<div id="map"></div>
+	<ul class="nav">
+		<li class="nav-item"><a class="nav-link active" href="#">Home</a>
+		</li>
+		<li class="nav-item"><a class="nav-link" href="about.html">About</a>
+		</li>
+		<li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a>
+		</li>
+	</ul>
 
 
 
-		<p>Lover of Gaming, Coffee, Home Theater, Films, Discovering new
-			music and all things tech.</p>
-		<nav>
-			<a href="about.html">About</a> <a href="portfolio.html">Portfolio</a>
-		</nav>
-	</header>
+
+	<h1>Tim's Page</h1>
+	<p>I have been technologically curious since the day my father’s
+		14.4k modem dialed up Prodigy. I am now charting a new path towards
+		becoming a Full Stack Software Developer. I have an extensive
+		background in technical support and am growing my skills at Grand
+		Circus learning Java, Git, MVC, JPA/Hibernate, SQL and how to use APIs
+		to build a web application. I’m excited to continue learning new
+		skills and technologies and apply them on the job everyday.</p>
+	<p>I grew up in Michigan and have lived in Grand
+		Rapids and downtown Detroit. I attended RIT in Rochester, NY but
+		now call Auburn Hills home...for now.</p>
+
+
+	<p>This won't load correctly because I haven't setup billing to use
+		the API yet</p>
+
+	<p>Lover of Gaming, Coffee, Home Theater, Films, Cats, Golden
+		Retrievers, Discovering new music and all things tech.</p>
+
+	<div id="map"></div>
+
+
+
+
+
+
 
 
 </body>
